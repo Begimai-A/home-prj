@@ -29,3 +29,23 @@ let randomWord=randomWords[Math.floor(Math.random()*4)];
 var randomInsult="Your "+ randomBodyPart + " like " + randomAdject + " "+ randomWord + "!";
 
 console.log(randomInsult);
+
+// RANDOM INSULT GAME 2
+
+const randomMonths=["January", "February", "March","April", "May", "June", "July", "August", "September", "October",
+ "November", "December" ];
+const randomDaysOfWeek=["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+const randomNumbers=[1,2,3,4,5,6,7,8,9,10];
+
+const randomMonth=randomMonths[Math.floor(Math.random()*12)];
+const randomDayOfWeek=randomDaysOfWeek[Math.floor(Math.random()*7)];
+const randomNumber=randomNumbers[Math.floor(Math.random()*10)];
+
+const randomInsult2=["Your lucky month is",  randomMonth + ",", "your lucky day of the week is ", 
+randomDayOfWeek + ",", 
+"and ", " your lucky number is ",  randomNumber +"!!!"].join("  ");
+
+console.log(randomInsult2);
+
+
+
