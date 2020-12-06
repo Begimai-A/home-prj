@@ -48,4 +48,15 @@ randomDayOfWeek + ",",
 console.log(randomInsult2);
 
 
+// exercise with method .join("");
+const numbers=[3, 2, 1].join(" love");
+
+console.log(numbers);
+
+const numbers2=[3, 2, 1].join(" more than");
+
+console.log(numbers2);
+
+
+
 
