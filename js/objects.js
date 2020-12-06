@@ -19,4 +19,44 @@ const friends=[
  karyz.Jimmi+=3; // used operator (+=) 
  console.log(karyz);
 
+ // Movies COLLECTION program
+
+ const movies={
+     "Nemo":{
+         releaseDate:2003, 
+         duration:100,
+         actors:["Albert Brooks", "Ellen Dedjeneres", "Alex Gold"],
+         format:"DVD"
+     },
+     "Star War: Episod VI-Djeday is coming back":{
+        releaseDate:1983, 
+        duration:134,
+        actors:["Marc Hamill", "Harrison Ford", "Carry Fisher"],
+        format:"DVD"  
+     },
+     "Harry Potter and Fire Cube":{
+        releaseDate:2005, 
+        duration:157,
+        actors:["Danial Redcliff", "Emma Watson", "Rupert Grint"],
+        format:"Blu-ray"
+     }
+
+ };
+  const findingMovies=movies["Nemo"];
+
+  //console.log(movies["Nemo"]); // or mojno like this console.log(movies.Nemo);
+
+  // DOBAVLYAEM NEW MOVIE TO THE COLLECTION
+
+  const cars={
+    releaseDate:2006, 
+    duration:117,
+    actors:["Danial Redcliff", "Emma Watson", "Rupert Grint"],
+    format:"Blu-ray"
+  };
+   movies["Tachki"]=cars;
+
+   console.log(movies.Tachki);
+
+
 
