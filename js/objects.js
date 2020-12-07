@@ -58,5 +58,28 @@ const friends=[
 
    console.log(movies.Tachki);
 
+// ПОДСЧЕТ ОЧКОВ
+
+const scores={
+   anna:5,
+   oleg:6,
+   ivan:10
+ };
+scores["anna"]+=2;           // scores.anna+=2;
+console.log(scores["anna"]); // console.log(scores.anna); 
+
+
+/* Arrays in object example
+Как одной строкой Жаваскрипта извлечь из этого объекта число 123?
+*/
+
+const myCrazyObject={
+
+   "name": "Нелепый объект",
+   "some array":[ 7, 9, {purpose: "mess", number: 123}, 3.3],
+   "random animal": "Banana shark"
+};
+console.log(myCrazyObject["some array"][2].number);
+
 
 
